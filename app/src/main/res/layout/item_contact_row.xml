@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/tv_picProContacat"
+
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/white"
+        android:background="@drawable/tv_bak_item"
+        android:text="a"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tv_picProContacat"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_nameContacat"
+            android:layout_alignEnd="@id/tv_picProContacat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ali"/>
+        <TextView
+            android:id="@+id/tv_numberContacat"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="09157169512"/>
+    </LinearLayout>
+
+</RelativeLayout>
